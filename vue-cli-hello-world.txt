@@ -1,0 +1,74 @@
+PS C:\Users\Han\Desktop\code\github> vue --version
+@vue/cli 4.5.6
+PS C:\Users\Han\Desktop\code\github> vue create vue-cli-hello-world
+
+
+Vue CLI v4.5.6
+? Please pick a preset: Default ([Vue 2] babel, eslint)
+
+
+Vue CLI v4.5.6
+✨  Creating project in C:\Users\Han\Desktop\code\github\vue-cli-hello-world.
+�  Initializing git repository...
+⚙️  Installing CLI plugins. This might take a while...
+
+
+> yorkie@2.0.0 install C:\Users\Han\Desktop\code\github\vue-cli-hello-world\node_modules\yorkie
+> node bin/install.js
+
+setting up Git hooks
+done
+
+
+> core-js@3.6.5 postinstall C:\Users\Han\Desktop\code\github\vue-cli-hello-world\node_modules\core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> ejs@2.7.4 postinstall C:\Users\Han\Desktop\code\github\vue-cli-hello-world\node_modules\ejs
+> node ./postinstall.js
+
+added 1250 packages from 918 contributors and audited 1253 packages in 58.543s
+
+53 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+�  Invoking generators...
+�  Installing additional dependencies...
+
+added 53 packages from 36 contributors and audited 1306 packages in 9.634s
+
+57 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+⚓  Running completion hooks...
+
+�  Generating README.md...
+
+�  Successfully created project vue-cli-hello-world.
+�  Get started with the following commands:
+
+ $ cd vue-cli-hello-world
+ $ npm run serve
+
+PS C:\Users\Han\Desktop\code\github> cd vue-cli-hello-world
+PS C:\Users\Han\Desktop\code\github\vue-cli-hello-world> npm run serve
+
+> vue-cli-hello-world@0.1.0 serve C:\Users\Han\Desktop\code\github\vue-cli-hello-world
+> vue-cli-service serve
+
+ INFO  Starting development server...
+98% after emitting CopyPlugin
+
+ DONE  Compiled successfully in 6080ms                                                                          21:09:39
+
+
+  App running at:
+  - Local:   http://localhost:8080/
+  - Network: http://192.168.1.103:8080/
+
+  Note that the development build is not optimized.
+  To create a production build, run npm run build.
